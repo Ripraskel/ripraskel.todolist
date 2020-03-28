@@ -154,4 +154,7 @@ function createNewListItemHTML(){
 adjustHeaderSpacer();
 addItemButton.addEventListener("click", handleInputEvent);
 newItemInput.addEventListener("keypress", handleInputEvent);
-window.addEventListener("resize", adjustHeaderSpacer)
+window.addEventListener("resize", adjustHeaderSpacer);
+
+// select entry box on page load
+newItemInput.select();
