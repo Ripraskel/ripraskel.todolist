@@ -155,7 +155,6 @@ adjustHeaderSpacer();
 addItemButton.addEventListener("click", handleInputEvent);
 newItemInput.addEventListener("keypress", handleInputEvent);
 window.addEventListener("resize", adjustHeaderSpacer);
-
-alert("Hi there! Let's put a list together!");
-// select entry box on page load
-newItemInput.select();
+window.addEventListener("click", function() {
+    newItemInput.select();
+});
